@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    height: 400px;
+    margin: 30px auto;
+    background-color: steelblue;
+    /*  background-image: linear-gradient(red, pink); */
+    /* background con posiciones */
+    /*    background-image: linear-gradient(to top, crimson, pink); */
+    background-image: linear-gradient(crimson 30%, steelblue 80%);
+}
+
+.header {
+    padding: 0.1px;
+    height: 600px;
+    background-image: linear-gradient(#00008b69, #dc143c6b), url(/img/tecno.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-size: 60px;
+    font-family: 'Arial';
+    text-align: center;
+    color: white;
+    margin-top: 270px;
+}
